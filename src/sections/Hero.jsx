@@ -1,6 +1,7 @@
 import { TypeAnimation } from "react-type-animation";
 import MaxWidthWrapper from "../components/MaxWidthWrapper";
 import { motion } from "framer-motion";
+import AnimatedNumbers from "react-animated-numbers";
 
 const variants = {
     initial: {
@@ -48,14 +49,14 @@ export default function Hero() {
                             </span>
                         </h1>
                         <p className="text-gray-400 sm:text-xl">
-                        Desenvolvedor web full stack apaixonado por criar aplicações interativas e reponsivas
+                            Desenvolvedor web full stack apaixonado por criar aplicações interativas e reponsivas
                         </p>
                         <div>
                             <a
                                 href="/#contato"
                                 className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-purple-500 via-pink-500 to-pink-600 hover:bg-slate-200 text-white"
                             >
-                                Me Contratar
+                                Contato
                             </a>
                             <a
                                 href="https://drive.google.com/file/d/1B6iD6Wo5u3ep3UsKslZLj3mw8OjEKUU_/view?usp=sharing"
@@ -87,32 +88,69 @@ export default function Hero() {
                 <div className="py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 lg:py-24">
                     <div className="sm:border-[#33353F] sm:border rounded-md py-8 px-16 flex flex-col gap-10 sm:flex-row items-center justify-between">
                         <div className="flex flex-col gap-2 text-center">
-                            <h1 className="font-bold text-4xl">
-                                10+
+                            <h1 className="font-bold flex justify-center text-4xl">
+                                <AnimatedNumbers
+                                    includeComma
+                                    transitions={(index) => ({
+                                        type: "spring",
+                                        mass: 1,
+                                        friction: 100,
+                                        tensions: 140 * (index + 1),
+                                    })}
+                                    animateToNumber={10}
+                                />
+                                +
                             </h1>
                             <p className="text-gray-400 text-base">
                                 Projetos
                             </p>
                         </div>
                         <div className="flex flex-col gap-2 text-center">
-                            <h1 className="font-bold text-4xl">
-                                1
+                            <h1 className="font-bold flex justify-center text-4xl">
+                                <AnimatedNumbers
+                                    includeComma
+                                    transitions={(index) => ({
+                                        type: "spring",
+                                        mass: 1,
+                                        friction: 100,
+                                        tensions: 140 * (index + 1),
+                                    })}
+                                    animateToNumber={3}
+                                />
                             </h1>
                             <p className="text-gray-400 text-base">
-                                Experiência
+                                Clientes
                             </p>
                         </div>
                         <div className="flex flex-col gap-2 text-center">
-                            <h1 className="font-bold text-4xl">
-                                3
+                            <h1 className="font-bold flex justify-center text-4xl">
+                                <AnimatedNumbers
+                                    includeComma
+                                    transitions={(index) => ({
+                                        type: "spring",
+                                        mass: 1,
+                                        friction: 100,
+                                        tensions: 140 * (index + 1),
+                                    })}
+                                    animateToNumber={3}
+                                />
                             </h1>
                             <p className="text-gray-400 text-base">
                                 Apresentações
                             </p>
                         </div>
                         <div className="flex flex-col gap-2 text-center">
-                            <h1 className="font-bold text-4xl">
-                                4
+                            <h1 className="font-bold flex justify-center text-4xl">
+                                <AnimatedNumbers
+                                    includeComma
+                                    transitions={(index) => ({
+                                        type: "spring",
+                                        mass: 1,
+                                        friction: 100,
+                                        tensions: 140 * (index + 1),
+                                    })}
+                                    animateToNumber={4}
+                                />
                             </h1>
                             <p className="text-gray-400 text-base">
                                 Anos

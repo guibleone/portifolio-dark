@@ -77,7 +77,7 @@ export default function Drawer() {
             )}
 
             {isOpen && (
-                <div className="fixed inset-0 border-b border-gray-700 h-[225px] z-20">
+                <div onClick={toggleDrawer} className="fixed inset-0 border-b border-gray-700 h-[225px] z-20">
                     <motion.div className="absolute inset-x-0 top-12 w-full bg-[#101010]">
                         <motion.div className="flex flex-col justify-between items-center text-center h-full">
                             <motion.div 

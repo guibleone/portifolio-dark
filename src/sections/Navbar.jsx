@@ -19,11 +19,13 @@ export default function Navbar() {
     ]
 
     return (
-        <div className="py-3 border-b border-gray-700">
+        <nav className="py-3 bg-[#101010] border-b border-gray-700 fixed mx-auto w-full z-40">
             <MaxWidthWrapper>
-                <div className="flex justify-between items-center ">
+                <div className="flex justify-between items-center  ">
                     <h1 className="text-2xl sm:text-5xl font-bold ">
-                        LOGO
+                        <a href="#">
+                            G. Leone
+                        </a>
                     </h1>
 
                     <div className="gap-8 hidden sm:flex">
@@ -46,7 +48,7 @@ export default function Navbar() {
 
                 </div>
             </MaxWidthWrapper>
-        </div>
+        </nav>
 
     )
 }

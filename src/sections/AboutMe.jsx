@@ -2,8 +2,8 @@ import AnimatedTabs from "../components/Tabs";
 
 export default function AboutMe() {
     return (
-        <section className='py-0 sm:py-10 pb-10 '>
-            <div className='max-w-screen-xl mx-auto px-8'>
+        <section id="sobre" className='py-0 sm:py-10 pb-10 '>
+            <div  className='max-w-screen-xl mx-auto px-8'>
                 <div className='grid gap-10 grid-cols-1 sm:grid-cols-2 '>
                     <div>
                         <img className='aspect-square' width={400} src="https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
