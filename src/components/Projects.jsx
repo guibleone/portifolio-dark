@@ -32,6 +32,33 @@ const projects = [
         gitUrl: "https://github.com/guibleone/universe-blog",
         liveUrl: "https://universe-blog-zeta.vercel.app/",
     },
+    {
+        id: 4,
+        title:"IG Café",
+        desc:"Projeto desenvolvido com MERN Stack, foi criado para a IG e gerenciamento da Associação dos Produtores de Cafés Especiais do Circuito das Águas Paulistas(APCECAP).",
+        img:"/projects/ig-cafe.png",
+        category:"React",
+        gitUrl:"https://github.com/guibleone/ig-cafe",
+        liveUrl:"https://igcafe.shop/",
+    },
+    {
+        id: 5,
+        title:"Todo App",
+        desc:"Desenvolvido com Next.js e Tailwind CSS, este projeto consiste em um aplicativo de tarefas, onde o usuário pode adicionar, remover e marcar como concluída.",
+        img:"/projects/todo-app.png",
+        category:"Next",
+        gitUrl:"https://github.com/guibleone/todo-app",
+        liveUrl:"https://todo-app-guibleone.vercel.app/",
+    },
+    {
+        id:6,
+        title:'Jogo da Velha',
+        desc:'Desenvolvido com React, este projeto consiste em um jogo da velha, onde o usuário pode jogar contra o computador, contando a pontuação de cada partida.',
+        img:'/projects/jogo-da-velha.png',
+        category:'React',
+        gitUrl:'https://github.com/guibleone/jogo-velha',
+        liveUrl:'https://jogo-da-velha-guibleone.vercel.app/',
+    }
 ]
 
 const categories = [
