@@ -1,9 +1,9 @@
-import Footer from "./components/Footer"
-import Projects from "./components/Projects"
-import AboutMe from "./sections/AboutMe"
-import Contact from "./sections/Contact"
-import Hero from "./sections/Hero"
-import Navbar from "./sections/Navbar"
+import Footer from "./components/Footer";
+import Projects from "./components/Projects";
+import AboutMe from "./sections/AboutMe";
+import Contact from "./sections/Contact";
+import Hero from "./sections/Hero";
+import Navbar from "./sections/Navbar";
 
 function App() {
   return (
@@ -15,9 +15,10 @@ function App() {
         <Projects />
         <Contact />
       </div>
+      <div className="flex-grow"></div>
       <Footer />
     </main>
-  )
+  );
 }
 
-export default App
+export default App;
