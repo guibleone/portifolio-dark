@@ -16,12 +16,12 @@ const projects = [
     },
     {
         id: 2,
-        title: "JVR Higienizações",
-        desc: 'Desenvolvido para a empresa JVR Higienizações, este projeto foi construído com as tecnologias Next.js, Tailwind CSS e Framer Motion.',
+        title: "JVR Higienização",
+        desc: 'Desenvolvido para a empresa JVR Higienização, este projeto foi construído com as tecnologias Next.js, Tailwind CSS e Framer Motion.',
         img: "/projects/jvr-higienizações.png",
         category: "Next",
         gitUrl: "https://github.com/guibleone/jvr-website",
-        liveUrl: "https://jvr-higienizacoes.vercel.app/",
+        liveUrl: "https://www.jvrhigienização.com.br/",
     },
     {
         id: 3,
