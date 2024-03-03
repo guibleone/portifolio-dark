@@ -19,7 +19,8 @@ let tabs = [
         id: 2,
         label: "Educação",
         desc: <div>
-            <li>Técnico de Informártica / IFSP - Campus Campinas</li>
+            <li>Cursando Análise e Desenvolvimento de Sistemas | Unicamp</li>
+            <li>Técnico de Informártica | IFSP - Campus Campinas</li>
         </div>
         ,
     },
